@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Roboto Mono",sans-serif;
+}
+
+#main{
+    display: none;
+}
+
+#preloader{
+    height: 100vh;
+    width: 100%;
+    z-index: 100000;
+
+}
+
+#grid {
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+    padding: 10px 50px;
+    justify-content: center;
+}
+
+#grid img{
+    width: 14%;
+    padding: 2px;
+    object-fit: cover;
+}
+
+p{
+    font-size: 15px;
+}
+#page1{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    font-size: 14px;
+}
+#page1-left{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+#Page1-left-p1{
+    margin-top: 15%;
+    margin-left: 45%;
+    margin-bottom: 30%;
+}
+#Page1-left-p2 , #Page1-left-p3{
+    width: 70%;
+    margin-top: 40px;
+}
+
+#page1-right{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+#page1-right h1{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(156, 156, 156);
+}
+
+#page1-right-img{
+    margin-top: 40px;
+    height: 93%;
+    width: 100%;
+}
+
+#page2{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    font-size: 14px;
+    position: relative;
+    padding: 7px;
+}
+
+#page2-img{
+    width: 35%;
+    height:100%;
+    margin-left: 25%;
+}
+#page2 p{
+    position: absolute;
+    bottom: 4%;
+    right: 2%;
+    font-size: 14px;
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+
+#page3-left{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+
+
+#Page3-left-p1{
+    margin-top: 30px;
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+#page3-left  i{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+#page3-left #songcover-1{
+    height: 40px;
+    width: 40px;
+}
+
+#Page3-left-p2 , #Page3-left-p3{
+    width: 70%;
+    margin-top: 70px;
+}
+
+#page3-right{
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+}
+#page3-right h1{
+    margin-top: 60px;
+    font-size: 16px;
+    margin-left: 30px;
+    font-weight: 400;
+    color: rgb(156, 156, 156);
+}
+
+#page3-img-div{
+    position: relative;
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    height:70%;
+    justify-content: center;
+    align-items: center;
+}
+
+#page3-img-div img{
+    width: 45%;
+    height: 65%;
+    padding: 3px;
+    object-fit: cover;
+}
+#page3-img-div #img1{
+    margin-bottom: 50px;
+}
+#page3-img-div #img2{
+   margin-top: 50px;
+}
+
+
+#page4{
+    padding: 20px;
+    height: 110vh;
+    width: 100%;
+}
+
+#page4 img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+#page5{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+
+#page5-left{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+
+
+#Page5-left-p1{
+    margin-top: 30px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+#Page5-left-p2 , #Page5-left-p3{
+    display: flex;
+    margin-top: 10px;
+    height: 50px;
+    align-items: center;
+}
+
+#Page5-left-p3{
+    margin-bottom: 80px;
+}
+
+#page5-left  i{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+#page5-left #songcover-1{
+    height: 40px;
+    width: 40px;
+}
+
+#Page5-left-p4 , #Page5-left-p5{
+    width: 70%;
+    margin-top: 40px;
+}
+
+#page5-right{
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+}
+#page5-right h1{
+    margin-top: 50px;
+    font-size: 16px;
+    margin-left: 30px;
+    font-weight: 400;
+    color: rgb(156, 156, 156);
+}
+
+#page5-img-div{
+    position: relative;
+    display: flex;
+    margin-top: 70px;
+    width: 100%;
+    height:70%;
+    justify-content: center;
+    align-items: center;
+}
+
+#page5-img-div img{
+    width: 45%;
+    height: 65%;
+    padding: 3px;
+    object-fit: cover;
+}
+#page5-img-div #img1{
+    margin-top: 50px;
+}
+#page5-img-div #img2{
+   margin-bottom: 50px;
+}
+
+
+#page7{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    font-size: 14px;
+    position: relative;
+    padding: 7px;
+}
+
+#page7-img{
+    width: 40%;
+    height:100%;
+    margin-left: 25%;
+}
+#page7 p{
+    position: absolute;
+    bottom: 4%;
+    right: 2%;
+    font-size: 14px;
+}
+
+#page8{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    font-size: 14px;
+    position: relative;
+    padding: 7px;
+}
+
+#page8-img{
+    width: 35%;
+    height:100%;
+    margin-left: 25%;
+}
+#page8 p{
+    position: absolute;
+    bottom: 4%;
+    right: 2%;
+    font-size: 14px;
+}
+
+#page9{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    font-size: 14px;
+}
+#page9-left{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+#Page9-left-p1{
+    width: 65%;
+    margin-top: 15%;
+    margin-bottom: 20%;
+}
+#Page9-left-p2 {
+    padding-right: 10px;
+    width: 65%;
+    margin-left:35% ;
+    margin-top: 20px;
+}
+
+#page9-right{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+#page9-right h1{
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(156, 156, 156);
+}
+
+#page9-right-img{
+    margin-top: 50px;
+    height: 90%;
+    width: 100%;
+}
+
+#page10{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    font-size: 14px;
+    position: relative;
+    padding: 7px;
+}
+
+#page10-img{
+    width: 35%;
+    height:100%;
+    margin-left: 25%;
+}
+#page10 p{
+    position: absolute;
+    bottom: 4%;
+    right: 2%;
+    font-size: 14px;
+}
+
+#page11{
+    padding: 20px;
+    height: 130vh;
+    width: 100%;
+}
+
+#page11 img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+#page12{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    position: relative;
+
+}
+#page12 p{
+    position: absolute;
+    top: 30%;
+    left: 23%;
+    font-size: 14px;
+}
+
+#page12 img{
+    position: absolute;
+    height: 92%;
+    width: 47%;
+    right: 2.5%;
+}
+#page13{
+    height: 70px;
+    width: 100%;
+}
+
+#player{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    z-index: 10000;
+}
